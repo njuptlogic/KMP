@@ -1,0 +1,16 @@
+Let there is only a parking lot can be parked n cars in the narrow channel, and only a gate can be used to enter and exit the car. 
+Cars in the parking lot according to the order of arrival of vehicles, in order from north to south (the gate at the southernmost end, 
+the first arrival of the first car parked at the northernmost end of the car park); 
+
+If the car park has been full of n cars, the later cars can only be waiting outside the gate on the right-of-way in turn, once a car to drive away, 
+then the row of the right-of-way can be the first car to drive into the parking lot when a car to leave, after it drives into the parking lot to make way for it.
+
+ When a car in the parking lot to leave, after it into the vehicle must first exit the car park for it to make way for the car to drive out of the gate, other vehicles
+ and then enter the car park in the original order; each car parked in the car park when it leaves the parking lot must be according to the length of time it stays to pay the fee. 
+Try to prepare a simulation program for a parking lot that manages according to the above requirements. The parking lot is simulated by a linear table,
+ the right of-way outside the parking lot  is simulated by a queue, and the simulation is managed according to a sequence of input data read in from a terminal.
+
+ Each set of input data consists of three data items car arrival or departure information, car license plate number, and arrival or departure moment. 
+The arrival or departure moment. For each set of input data after the operation of the output information is if the vehicle arrives, 
+the output of the car in the parking lot or on the right-of-way parking position; if the vehicle is leaving, the output of the car in the parking lot to stay in the time and should  be paid the fee (in the right-of-way to stay in the time of no charge). 
+The linear table is implemented as a sequential structure and the queue is implemented as a chained table structure.
