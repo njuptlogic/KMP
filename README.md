@@ -19,7 +19,5 @@
 ## 使用方法
 
 ### 1. 编译与运行
-使用以下命令编译和运行程序：
-```bash
-g++ -o kmp_tool kmp_tool.cpp
-./kmp_tool
+使用以下命令运行程序：
+```KMP.exe
